@@ -12,7 +12,7 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    z-index: 9999;
+    z-index: 9999;    /* To make navbar always on top */
 }
 
 .navbar-logo{
