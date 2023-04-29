@@ -1,20 +1,19 @@
 import "./Hero.css";
-import homeBg from "../assets/homeBg.png";
 
-function Hero() {
+function Hero(props) {
     return (
         <>
-            <div className="hero">
-                <img src={homeBg} alt="homeBg" />
+            <div className={props.cName}>
+                <img className="home-bg" src={props.heroImg} alt="home-bg" />
 
                 <div className="hero-text">
-                    <h1>INNOVATIVE MIND</h1>
-                    <p>CHALLENGE THE IMPOSSIBLE</p>
-                    <a href="/">
-                        Explore
+                    <p>{props.text}</p>
+                    <h1>{props.title}</h1>
+                    <a href={props.url} className={props.btnClass}>
+                        {props.buttonText}
                     </a>
                 </div>
-            </div>
+            </div >
         </>
     );
 }

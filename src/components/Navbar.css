@@ -15,9 +15,11 @@
     z-index: 9999;    /* To make navbar always on top */
 }
 
-.navbar-logo{
-    padding-top: 10px;
+.logo-img{
     cursor: pointer;
+    width: 150;
+    height: 40px;
+    padding-top: 5px;
 }
 
 .nav-menu{

@@ -12,8 +12,8 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='NavbarItems'>
-                <div className='navbar-logo'  >
-                    <img src={nikenLogo} width={130} height={40} alt="niken-logo" />
+                <div className='navbar-logo'>
+                    <img className="logo-img" src={nikenLogo} alt="niken-logo" />
                 </div>
 
                 <div className='menu-icons' onClick={this.handleClick}>
