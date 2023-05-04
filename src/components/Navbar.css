@@ -60,6 +60,7 @@
 
     .NavbarItems{
         z-index: 99;
+        transition: smooth;
     }
 
     .nav-menu{
