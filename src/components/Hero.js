@@ -14,9 +14,9 @@ function Hero(props) {
                 "default-state": {
                     gradients: [
                         ["#573c78", "#384569"],
-                        ["#bdc3c7", "#2c3e50"],
-                        ["#7b4397", "#dc2430"],
-                        ["#ffd89b", "#19547b"],
+                        // ["#bdc3c7", "#2c3e50"],
+                        // ["#7b4397", "#dc2430"],
+                        // ["#ffd89b", "#19547b"],
                     ],
                     transitionSpeed: 5000,
                 },
