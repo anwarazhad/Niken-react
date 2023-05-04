@@ -10,7 +10,7 @@
     font-size: 5rem;        /*for media make 3rem or 2rem*/
     font-weight:normal;
     color: #ff0000;
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     padding-bottom: 20px;
     padding-top: 100px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
