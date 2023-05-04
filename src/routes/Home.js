@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
-import homeBg from "../assets/homeBg.png";
 
 function Home() {
     return (
@@ -8,7 +7,6 @@ function Home() {
             <Navbar />
             <Hero
                 cName="hero"
-                heroImg={homeBg}
                 text="INNOVATIVE MIND"
                 title="CHALLENGE THE IMPOSSIBLE"
                 buttonText="Explore"
