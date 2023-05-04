@@ -1,6 +1,7 @@
 import "./Hero.css";
 import Granim from "granim";
 import { useEffect } from "react";
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 function Hero(props) {
 
@@ -32,10 +33,9 @@ function Hero(props) {
             <div className="hero-text">
                 <h1>{props.text}</h1>
                 <p>{props.title}</p>
-                <a href={props.url} className={props.btnClass}>
-                    {props.buttonText}
-                </a>
-            </div>
+                <KeyboardDoubleArrowDownIcon href={props.url} className={props.btnClass} >
+                </KeyboardDoubleArrowDownIcon>
+            </div >
         </>
     );
 }

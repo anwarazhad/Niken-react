@@ -9,7 +9,6 @@ function Home() {
                 cName="hero"
                 text="INNOVATIVE MIND"
                 title="CHALLENGE THE IMPOSSIBLE"
-                buttonText="Explore"
                 url="/"
                 btnClass="show"
             />

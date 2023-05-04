@@ -7,40 +7,33 @@
 }
 
 .hero-text h1{
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
     -webkit-background-clip: text;
     padding-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .hero-text p{
-    font-size: 1.3rem;
-    color: #ffffff;
+    font-size: 1.5rem;
+    color: #ff0000;
     padding: 0.5rem 0 5rem 0;
     font-weight: bold;
 }
 
-.hero-text .show{
-    text-decoration: none;
-    background:#ffffff ;
-    padding: 1rem 2rem;
-    border-radius: 6px;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    color: black;
+.hero-text .show {
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
 }
 
-.hero-text .show:hover{
-    background-color: #fc036b;
-    color: rgb(255, 255, 255);
-    border-radius: 6px;
-    transition: all 0.2s ease-in-out;
-} */
+.hero-text .show:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.1s ease-in-out;
+}
 
-/*Below is for gradient color*/
+/**************Below is for gradient color************/
 
 .bloc-logo {
 
