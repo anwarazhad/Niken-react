@@ -33,8 +33,7 @@ function Hero(props) {
             <div className="hero-text">
                 <h1>{props.text}</h1>
                 <p>{props.title}</p>
-                <KeyboardDoubleArrowDownIcon href={props.url} className={props.btnClass} >
-                </KeyboardDoubleArrowDownIcon>
+                <KeyboardDoubleArrowDownIcon href={props.url} className={props.btnClass} />
             </div >
         </>
     );
